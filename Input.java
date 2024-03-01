@@ -7,6 +7,7 @@ public class Input {
 
       System.out.print("Enter your username: ");
       String username = sc.nextLine();
+      sc.close();
       System.out.println("Username is: " + username);
    }
 }
